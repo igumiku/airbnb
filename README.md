@@ -39,7 +39,7 @@ This iterator should provide three public class member functions:
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/list_of_list_iterator/ListofListIterator.java)
 
-#### 4 Display Page (Pagination)
+#### 4 Display Page (Pagination) **todo
 
 Given an array of CSV strings representing search results, output results sorted by a score initially. A given host may have several listings that show up in these results. Suppose we want to show 12 results per page, but we don’t want the same host to dominate the results. 
 
@@ -49,7 +49,7 @@ Given an array of csv strings, output results separated by a blank line.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/display_page/DisplayPage.java)
 
-#### 5 Travel Buddy
+#### 5 Travel Buddy **todo
 
 I have a wish list of cities that I want to visit to, my friends also have city wish lists that they want to visit to. If one of my friends share more than 50% (over his city count in his wish list), he is my buddy.
 
@@ -57,7 +57,7 @@ Given a list of city wish list, output buddy list sorting by similarity.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/travel_buddy/TravelBuddy.java)
 
-#### 6 File System
+#### 6 File System   **todo
 
 Write a file system class, which has two functions: create, and get 
 * create("/a",1) 
@@ -75,25 +75,25 @@ Given a list of unique words, find all pairs of distinct indices (i, j) in the g
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/palindrome_pairs/PalindromePairs.java)
 
-#### 8 Find Median in Large Integer File of Integers
+#### 8 Find Median in Large Integer File of Integers    **todo
 
 Find the median from a large file of integers. You can not access the numbers by index, can only access it sequentially. And the numbers cannot fit in memory.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/find_median_in_large_file_of_integers/FindMedianinLargeIntegerFileofIntegers.java)
 
-#### 9 [IP Range to CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
+#### 9 [IP Range to CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)   **todo
 
 Given an IPv4 IP address p and an integer n, return a list of CIDR strings that most succinctly represents the range of IP addresses from p to (p + n).  
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/ip_range_to_cidr/IPRangetoCIDR.java)
 
-#### 10 [CSV Parser](http://creativyst.com/Doc/Articles/CSV/CSV01.htm#EmbedBRs)
+#### 10 [CSV Parser](http://creativyst.com/Doc/Articles/CSV/CSV01.htm#EmbedBRs)  **todo
 
 Write a method to parse input string in CSV format.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/csv_parser/CSVParser.java)
 
-#### 11 [Text Justification](https://leetcode.com/problems/text-justification/description/)
+#### 11 [Text Justification](https://leetcode.com/problems/text-justification/description/)  **todo
 
  Given an array of words and a length L, format the text such that each line has exactly L characters and is fully (left and right) justified.
 
@@ -103,7 +103,7 @@ Extra spaces between words should be distributed as evenly as possible. If the n
 
 For the last line of text, it should be left justified and no extra space is inserted between words. 
 
-#### 12 Regular Expression
+#### 12 Regular Expression  **todo  leetcode 10
 
 Implement a simple regex parser which, given a string and a pattern, returns a boolean indicating whether the input matches the pattern.
 
@@ -115,7 +115,7 @@ By simple, we mean that the regex can only contain special character:
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/regular_expression/RegularExpression.java)
 
-#### 13 Water Drop/Water Land/Pour Water
+#### 13 Water Drop/Water Land/Pour Water **todo  leetcode 751
 
 Input is a array represent how the height of water is at each position, the number of water will be poured, and the pour position.
 Print the land after all water are poured.
@@ -148,13 +148,13 @@ water quantity is 8 and pour at position 5. The land becomes:
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/water_land/WaterLand.java)
 
-#### 14 [Hilbert Curve](https://en.wikipedia.org/wiki/Hilbert_curve)
+#### 14 [Hilbert Curve](https://en.wikipedia.org/wiki/Hilbert_curve) **todo
 
 Given (x, y, iter), in which (x, y) is position at x-axis and y-axis, and iter is how many iterations will be. Output is in iteration *iter*, how many steps are required to move from (0, 0) to (x, y) in iteration *iter*.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/hilbert_curve/HilbertCurve.java)
 
-#### 15 [Simulate Diplomacy](http://www.backstabbr.com/rules)
+#### 15 [Simulate Diplomacy](http://www.backstabbr.com/rules) **todo
 
 Input (army_name, location, action())
 
@@ -167,7 +167,7 @@ action() could be:
 
 The army's strength are intialized as the same.
 
-### 16 Meeting Time
+### 16 Meeting Time **todo
 
 Input is a number of meetings (start_time, end_time)。
 Output is a number of time intervals (start_time, end_time), where there is no meetings.
@@ -178,7 +178,7 @@ output [[4, 6], [7, 9]]
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/meeting_time/MeetingTime.java)
 
-#### 17 Round Prices
+#### 17 Round Prices **todo
 
 Given an array of numbers A = [x1, x2, ..., xn] and T = Round(x1+x2+... +xn). We want to find a way to round each element in A such that after rounding we get a new array B = [y1, y2, ...., yn] such that y1+y2+...+yn = T where yi = Floor(xi) or Ceil(xi), ceiling or floor of xi. 
 
@@ -186,49 +186,49 @@ We also want to minimize sum |x_i-y_i|
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/round_prices/RoundPrices.java)
 
-#### 18 Sliding Game
+#### 18 Sliding Game **todo
 
 You're given a 3x3 board of a tile puzzle, with 8 tiles numbered 1 to 8, and an empty spot. You can move any tile adjacent to the empty spot, to the empty spot, creating an empty spot where the tile originally was. The goal is to find a series of moves that will solve the board, i.e. get [ [1, 2, 3], [4, 5, 6], [7, 8, - ]…
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/sliding_game/SlidingGame.java)
 
-#### 19 Maximum Number of Nights You Can Accommodate
+#### 19 Maximum Number of Nights You Can Accommodate **todo
 
 Given a set of numbers in an array which represent number of consecutive nights of AirBnB reservation requested, as a host, pick the sequence which maximizes the number of days of occupancy, at the same time, leaving at least 1 day gap in between bookings for cleaning. Problem reduces to finding max-sum of non-consecutive array elements.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/maximum_number_of_nights_you_can_accommodate/MaximumNumberofNightsYouCanAccommodate.java)
 
-#### 20 Find Case Combinations of a String
+#### 20 Find Case Combinations of a String **todo
 
 Find all the combinations of a string in lowercase and uppercase. For example, string "ab" >>> "ab", "Ab", "aB", "AB". So, you will have 2^n (n = number of chars in the string) output strings. The goal is for you to test each of these strings and see if it matchs a hidden string.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/find_case_combinations_of_a_string/FindCaseCombinationsofaString.java)
 
-#### 21 Menu Combination Sum
+#### 21 Menu Combination Sum **todo
 
 Given a menu (list of items prices), find all possible combinations of items that sum a particular value K. (A variation of the typical 2sum/Nsum questions).
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/menu_combination_sum/MenuCombinationSum.java)
 
-#### 22 K Edit Distance
+#### 22 K Edit Distance **todo
 
 Find all words from a dictionary that are k edit distance away.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/k_edit_distance/KEditDistance.java)
 
-#### 23 Boggle Game
+#### 23 Boggle Game **todo
 
 Given 2d matrix of letters, and a word dictionary, find a path which has largest number of words (existed inside the dictionary).
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/boggle_gane/BoggleGame.java)
 
-#### 24 Minimum Cost with At Most K Stops
+#### 24 Minimum Cost with At Most K Stops **todo
 
 Given a flight itinerary consisting of starting city, destination city, and ticket price (2d list) - find the optimal price flight path to get from start to destination. (A variation of Dynamic Programming Shortest Path)
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/minimum_cost_with_at_most_k_stops/MinimumCostwithAtMostKStops.java)
 
-#### 25 String Pyramids Transition Matrix
+#### 25 String Pyramids Transition Matrix **todo
 
 Given a list of leaf nodes in a pyramid, and a map which indicates what's the possible parent node given a left and right node. Return true if the one of leaf node could turn into the root node, Otherwise, return false.
 For example:
@@ -258,7 +258,7 @@ Given leaf input of "ABCD", output true.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/string_pyramids_transition_matrix/StringPyramidsTransitionMatrix.java)
 
-#### 26 Finding Ocean
+#### 26 Finding Ocean **todo
 
 Given: An array of strings where L indicates land and W indicates water, and a coordinate marking a starting point in the middle of the ocean.
 
@@ -294,7 +294,7 @@ OLLLLWW
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/finding_ocean/FindingOcean.java)
 
-#### 27 Preference List
+#### 27 Preference List **todo
 
 Given a list of everyone's preferred city list, output the city list following the order of everyone's preference order.
 
@@ -302,13 +302,13 @@ For example, input is [[3, 5, 7, 9], [2, 3, 8], [5, 8]]. One of possible output 
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/preference_list/PreferenceList.java)
 
-#### 28 Minimum Vertices to Traverse Directed Graph
+#### 28 Minimum Vertices to Traverse Directed Graph **todo
 
 Given a directed grapjh, represented in a two dimension array, output a list of points that can be used to travese every points with the least number of visited vertices.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/minimum_vertices_to_traverse_directed_graph/MinimumVerticestoTraverseDirectedGraph.java)
 
-#### 29 10 Wizards
+#### 29 10 Wizards **todo
 
 There are 10 wizards, 0-9, you are given a list that each entry is a list of wizards known by wizard. Define the cost between wizards and wizard as square of different of i and j. To find the min cost between 0 and 9. 
 
@@ -322,13 +322,13 @@ wizard[4] list: 9
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/ten_wizards/TenWizards.java)
 
-#### 30 Number of Intersected Rectangles
+#### 30 Number of Intersected Rectangles **todo
 
 Given lots of rectangles, output how many of them intersect.
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/number_of_intersected_rectangles/NumberofIntersectedRectangles.java)
 
-#### 31 Guess Number
+#### 31 Guess Number **todo
 
 The system has a secret four digits number, in which each digit is in range of one to 6 [1, 6]. 
 
