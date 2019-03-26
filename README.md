@@ -228,7 +228,7 @@ Given a flight itinerary consisting of starting city, destination city, and tick
 
 [Java Source Code](https://github.com/dqi2018/airbnb/blob/master/src/main/java/minimum_cost_with_at_most_k_stops/MinimumCostwithAtMostKStops.java)
 
-#### 25 String Pyramids Transition Matrix **todo
+#### 25 String Pyramids Transition Matrix
 
 Given a list of leaf nodes in a pyramid, and a map which indicates what's the possible parent node given a left and right node. Return true if the one of leaf node could turn into the root node, Otherwise, return false.
 For example:
